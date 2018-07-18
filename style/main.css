@@ -1,0 +1,51 @@
+.flex {
+  display: flex;
+} 	
+
+.wrapper-full-screen{
+	width: 100%;
+	height: 100vh;
+	background: black;
+}
+
+.felx-full-height{
+	flex-grow: 1;
+	height: 100vh;
+	background: black;
+	color: white;
+}
+
+.flex-stories{
+	height: 300vh;
+}
+
+
+.bg-flowers{
+	background: url(../assets/bg-flowers.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-strong-watto{
+	background: url(../assets/strong-watto.png) no-repeat left bottom; 
+	background-size: contain;
+}
+
+h1 {
+	font-family: Cassandra;
+	font-size: 5vw;
+	color: white;
+	line-height: 10vw;
+}
+
+.totally-centered {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
