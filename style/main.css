@@ -1,3 +1,6 @@
+body{
+	background-color: black;
+}
 .flex {
   display: flex;
 } 	
@@ -9,7 +12,7 @@
 }
 
 .felx-full-height{
-	flex-grow: 1;
+	flex-basis: 50%;
 	height: 100vh;
 	background: black;
 	color: white;
@@ -31,6 +34,14 @@
 .bg-strong-watto{
 	background: url(../assets/strong-watto.png) no-repeat left bottom; 
 	background-size: contain;
+}
+
+.fix{
+	left: 0;
+    bottom: 0;
+    position: fixed;
+    height: 100vh;
+    width: 50%;
 }
 
 h1 {
