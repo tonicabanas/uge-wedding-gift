@@ -2,3 +2,8 @@
     font-family: Cassandra;
     src: url(../fonts/Cassandra.ttf);
 }
+
+@font-face {
+    font-family: Merienda;
+    src: url(../fonts/Merienda-Regular.ttf);
+}

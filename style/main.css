@@ -5,25 +5,26 @@ body{
   display: flex;
 } 	
 
-.wrapper-full-screen{
+.wrapper-full-screen {
 	width: 100%;
 	height: 100vh;
 	background: black;
 }
 
-.felx-full-height{
+.felx-full-height {
 	flex-basis: 50%;
 	height: 100vh;
 	background: black;
 	color: white;
+	border: 2px white;
 }
 
-.flex-stories{
+.flex-stories {
 	height: 300vh;
 }
 
 
-.bg-flowers{
+.bg-flowers {
 	background: url(../assets/bg-flowers.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -31,12 +32,32 @@ body{
 	background-size: cover;
 }
 
-.bg-strong-watto{
+.bg-strong-watto {
 	background: url(../assets/strong-watto.png) no-repeat left bottom; 
 	background-size: contain;
 }
 
-.fix{
+.story {
+	text-align: center;
+	vertical-align: center;
+	border: 2px white;
+    display: inline-block;
+    margin-top: 20vh;
+    vertical-align: middle;
+
+}
+
+img {
+		display: inline-block;
+		height: 60vh;
+	    border-radius: 2em;
+	    margin: 2em;
+	    vertical-align: middle;
+	    max-width: 40vw;
+}
+
+
+.fix {
 	left: 0;
     bottom: 0;
     position: fixed;
@@ -60,3 +81,51 @@ h1 {
     text-align: center;
 }
 
+.txt-story {
+	display: inline-block;
+	font-family: Merienda;
+	text-align: center;
+	max-width: 20vw;
+	font-size: 2vw;
+	line-height: 3vw;
+
+}
+
+.gradient-top{
+	z-index: 10;
+	position:fixed;
+	top:0;
+	right: 0;
+	width: 50%;
+	height: 50vh;
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 34%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 34%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 34%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+
+.gradient-bottom{
+	z-index: 10;
+	position:fixed;
+	bottom:0;
+	right: 0;
+	width: 50%;
+	height: 50vh;
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+.safe-box{
+	z-index: 100;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+video{
+	margin-top: 30vh;
+}
